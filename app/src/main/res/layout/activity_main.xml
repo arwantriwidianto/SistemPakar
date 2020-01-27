@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#F2F2F2"
+    tools:context=".fragment.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="24sp"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PENYAKIT KULIT"/>
+
+
+        <CheckBox
+            android:id="@+id/cbdemam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Demam"/>
+
+        <CheckBox
+            android:id="@+id/cbnyeriteggorokan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nyeri Teggorokan" />
+
+        <CheckBox
+            android:id="@+id/cbtenggorokantampakmerah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tenggorokan Tampak Merah" />
+
+        <CheckBox
+            android:id="@+id/cbpembengkakankelenjargetahbening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pembengkakan Kelenjar Getah Bening" />
+
+        <CheckBox
+            android:id="@+id/cbsakitkepala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sakit Kepala" />
+
+        <CheckBox
+            android:id="@+id/cbhidungmeler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hidung Meler" />
+
+        <CheckBox
+            android:id="@+id/cbbatuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Batuk" />
+
+        <CheckBox
+            android:id="@+id/cbnyeriotot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nyeri Otot" />
+
+        <CheckBox
+            android:id="@+id/cbnyerisendi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nyeri Sendi" />
+
+        <CheckBox
+            android:id="@+id/cbkemerahankulit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kemerahan Kulit" />
+
+        <CheckBox
+            android:id="@+id/cbmunculbintik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muncul Bintik Bintik Merah" />
+
+        <CheckBox
+            android:id="@+id/cbtubuhmenggigil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tubuh Menggigil" />
+
+        <Button
+            android:id="@+id/scan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SCAN"/>
+
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="hasil scan..."/>
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "255248281125",
+    "firebase_url": "https://sistempakar-ef97b.firebaseio.com",
+    "project_id": "sistempakar-ef97b",
+    "storage_bucket": "sistempakar-ef97b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255248281125:android:6cf9c6a54800a35e94d9cc",
+        "android_client_info": {
+          "package_name": "com.onecode.sistempakar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255248281125-igkcvbpg7fs1cmdavfqbhd3jo98e09lc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.onecode.sistempakar",
+            "certificate_hash": "2200156af69f1d2f5a2d8e23791da0766e5ed771"
+          }
+        },
+        {
+          "client_id": "255248281125-7gu1fl8kus1lh4kd0i266b907k1mo4s1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6hshwtI7w52w6EliFG3BbvSyWaNO9BV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255248281125-7gu1fl8kus1lh4kd0i266b907k1mo4s1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
